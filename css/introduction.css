@@ -1,0 +1,61 @@
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(56, 56, 97);
+}
+
+li {
+    float: right;;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+    .whitebox{background:white;  border:solid 2px rgb(0, 0, 0);}
+    .bluebox{background:rgb(165, 165, 211); border:solid 2px white;}
+    .redbox{background:rgb(91, 91, 136); border:solid 1px black;}
+    div {border:inherit;background:transparent;margin:5px;}
+
+   
+    #top {}
+    #middle{}
+    #bottom{}
+
+    #mid_row1_col1{float:left;}
+    #mid_row1_col2{float:left;}
+    #mid_row1_col3{float:right;}
+
+    #mid_row1_col2_col1{float:left;}
+    #mid_row1_col2_col2{float:right;}
+
+    .clear{clear:both;border:none;height:1px;margin:0;padding:0}
+.text1{
+  font-size:27px;
+  font-family:'STKaiti';
+}
+#demo {
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            border-radius:50px;
+        }
+

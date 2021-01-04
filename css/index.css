@@ -1,0 +1,58 @@
+.img1{
+    position: absolute;
+    left:920px;
+    top:100px;
+}
+.p{
+    position: fixed; /* 相对于浏览器窗口定位 */
+    left: 350px;     /* 距离浏览器左边100px */
+    top: 80px;
+    font-size:20px;      /* 距离浏览器上边200px */
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+p.text1{
+    line-height: 170%;
+    position:absolute;
+	left:50px;
+	top:170px;
+    font-size:21px;
+    }
+	body
+{
+	background-color:#d8e1e9;
+}
+.text2
+{background-color: #333;
+padding: 25px 50px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
