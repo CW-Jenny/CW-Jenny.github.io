@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" href="css/form.css">
+<meta charset="utf-8">
+<title>留言板</title>
+
+
+<script src="font_2305438_7aniw65shzk/iconfont.js"></script>
+
+
+<script type="text/javascript" src="js/form.js">
+   
+</script>
+<script type="text/javascript" src="http://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
+<script type="text/javascript">
+   $webfont.load("body", "cc5ecf5d7c76435b8973b35bfed2fb76", "Tianshi-Yanti");
+   /*$webfont.load("#id1,.class1,h1", "cc5ecf5d7c76435b8973b35bfed2fb76", "Tianshi-Yanti");*/
+   /*．．．*/
+   $webfont.draw();
+</script>
+</script>
+</head>
+<body>
+   
+    <ul>
+        <li><a class="active" href="http://www.xzn.com/form.html">留言板</a></li>
+        <li><a href="http://www.xzn.com/introduction.html">基本介绍</a></li>
+        <li><a href="http://www.xzn.com/image.html">写真图集</a></li>
+        <li><a href="http://www.xzn.com">首页</a></li>
+         
+      </ul>
+      
+      <div id="myDIV">   
+    <div style="width:100%;text-align:center" class="text1">
+        
+        <form action="php/save.php" name="myForm" onsubmit="return validateForm()" method="POST" >
+            <fieldset>
+            <legend>个人基本信息与留言:</legend>
+            姓名: <input type="text" size="25" name="fname" /><br>
+            邮箱名称: <input type="text" name="email"><br>
+            密码：<input type="password" id="input1"><br>
+            确认密码：<input type="password" id="input2"><br>
+            性别：<input type="radio" name="sex" value="男"/>男
+                  <input type="radio" name="sex" value="女"/>女<br>
+            年龄: <input type="text" size="10" name="age"><br>
+            血型：<input type="radio" name="bloodtype" value="A">A
+             <input type="radio" name="bloodtype" value="B">B
+             <input type="radio" name="bloodtype" value="AB">AB
+             <input type="radio" name="bloodtype" value="O">O<br>
+             城市：
+                <select name="city">
+                <option value="beijing">北京</option>
+                <option value="shanghai">上海</option>
+                <option value="guangzhou">广州</option>
+                <option value="hebei">河北</option>
+                </select><br>
+                
+            留言：<textarea rows="25" cols="60" name="words" value="text1">
+            </textarea><br>
+            <input type="submit" value="确认" onclick="validateForm(),check()">
+            <input type="button" value="重置" onclick="reset()">
+            
+            </form>
+
+            <table id="myTable" border="1">
+                <thead>
+                    <tr>
+                        <th>栏目一</th>
+                        <th>栏目二</th>
+                        <th>栏目三</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>栏目一数据1</td>
+                        <td>栏目二数据1</td>
+                        <td>栏目三数据1</td>
+                        <td><a href="#" class="remove" onclick="deleteTr(this)">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>栏目一数据2</td>
+                        <td>栏目二数据2</td>
+                        <td>栏目三数据2</td>
+                        <td><a href="#" class="remove" onclick="deleteTr(this)">删除</a></td>
+                    </tr>        
+                </tbody>
+            </table>
+            <a href="#" id="add" onclick="insRow(this)">增加一行</a>
+        </fieldset>
+        </div>
+
+    </div>
+</body>
+</html>
