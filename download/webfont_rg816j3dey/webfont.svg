@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+
+<svg>
+<metadata>
+Created by webfont
+</metadata>
+<defs>
+
+<font id="YRDZST-Bold" horiz-adv-x="256" vert-adv-y="256" >
+  <font-face
+    
+    font-family="YRDZST-Bold"
+    
+    font-weight="400"
+    
+    font-stretch="normal"
+    
+    units-per-em="256"
+    
+    ascent="221"
+    
+    descent="-54"
+    
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="uni61" unicode="&#x61;" d="M54 94Q73 95 86 73Q84 46 80 36L82 29Q83 23 88 18Q95 9 95 2L78-2Q68 4 64 16Q47-3 31-2Q5 1 2 29Q5 81 36 93Q47 96 54 94M23 41L24 29Q26 22 28 22L35 22Q49 22 61 52L64 68Q61 75 52 75L51 75Q29 75 23 41Z"  horiz-adv-x="96" vert-adv-y="256"  />
+
+    
+    <glyph glyph-name="uni68" unicode="&#x68;" d="M29 175L34 168L34 151Q34 120 31 79L31 89Q36 96 62 95Q86 97 82 54Q77 23 99 16L99 2L89-1Q55-2 59 69L57 70Q27 70 27-2L17-2Q5 2 5 19Q10 19 18 160Q21 175 29 175Z"  horiz-adv-x="100" vert-adv-y="256"  />
+
+    
+    <glyph glyph-name="uni74" unicode="&#x74;" d="M26 124L41 119L40 101L39 91L50 92Q48 92 48 94Q62 94 69 77Q59 72 54 72L35 72Q36 72 33 42Q31 20 38 20L45 20L54 30Q64 30 64 23Q58-2 40-2Q9-7 13 50L16 61L16 74Q16 72-2 71L3 90Q21 89 21 89Q23 112 26 124Z"  horiz-adv-x="68" vert-adv-y="256"  />
+
+    
+    <glyph glyph-name="uni77" unicode="&#x77;" d="M89 99L97 99Q110 91 111 75Q108 52 80 0L73 0Q65 6 54 53L58 43Q58 47 28-3Q11 4 6 92L16 92Q20 92 26 82Q24 70 24 68Q26 43 29 32L30 30L25 30Q39 59 50 86L55 86Q65 86 78 38Q80 39 92 79Q89 88 89 99Z"  horiz-adv-x="111" vert-adv-y="256"  />
+
+    
+
+  </font>
+</defs></svg>

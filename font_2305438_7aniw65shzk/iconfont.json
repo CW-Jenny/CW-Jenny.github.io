@@ -1,0 +1,44 @@
+{
+  "id": "2305438",
+  "name": "TOM WEB",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "web前端课程的图标",
+  "glyphs": [
+    {
+      "icon_id": "3811480",
+      "name": "狐狸",
+      "font_class": "huli-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3811481",
+      "name": "鸟",
+      "font_class": "niao-",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3811485",
+      "name": "树枝",
+      "font_class": "shuzhi-",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3811488",
+      "name": "小鹿",
+      "font_class": "xiaolu-",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3811493",
+      "name": "雪山",
+      "font_class": "xueshan-",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
